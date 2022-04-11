@@ -10,10 +10,7 @@ public class Mouse {
     public float comprimentoCabo;
     public boolean wireless;
     
-    public void clickBotaoEsquerdo(){}
-
-    public void cliqueBotaoDireito(){}
-    
+//construtores adicionar o restante dos atributos    
     public Mouse(){}
 
     public Mouse(String marca, float comprimentoCabo){
@@ -21,4 +18,8 @@ public class Mouse {
         this.marca = marca;
         this.comprimentoCabo = comprimentoCabo;
     }
+    
+    public void cliqueBotaoEsquerdo(){}
+    
+    public void cliqueBotaoDireito(){}
 }
