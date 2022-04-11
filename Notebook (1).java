@@ -8,8 +8,9 @@ public class Notebook {
     public String sistema;
     public Teclado teclado;
     public Mouse mouse;
-    protected Boolean status;
-                    
+    public Boolean status;
+
+    // Construtores         
     public Notebook(){}
 
     public Notebook(String modelo, float tela, String sistema, Teclado teclado, Mouse mouse){
@@ -21,16 +22,14 @@ public class Notebook {
         this.mouse = mouse;
     }
 
-    public Boolean liga(){
+    public void liga(){
 
         this.status = true;
-        return this.status
     }
     
-    public Boolean desliga(){
+    public void desliga(){
 
         this.status = false
-        return this.status
     }
     
     public void mostrarPerifericos(){
@@ -42,3 +41,4 @@ public class Notebook {
 
     }
 }
+
